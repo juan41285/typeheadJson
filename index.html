@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Typehead 3 bootstrap con Json</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form action="">
+                    <div class="form-group">
+                        <label for="escuela">Escuela</label>
+                        <input type="text" data-provide="typeahead"  class="form-control typeahead" name="escuela" id="escuela" autocomplete="off">
+                        <br>
+                        <div class="well-sm">
+                        <label for="" disabled>ID:</label>
+                        <input type="text" name="id_Esc" id="id_Esc" disabled="" autocomple="off">
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap3-typeahead.min.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
