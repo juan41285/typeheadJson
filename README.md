@@ -37,7 +37,7 @@ $.get('http://tictucuman.net/portal/agendas/escuelas', function(data){
     $("#escuela").typeahead({ source:data });
 },'json');
 
-//cuando pierde el foco compara el valor elegido con el valor que se encuentra en el input
+//cuando pierde el foco compara el valor elegido con el valor que se encuentra en el input si son iguales setea el input hidden en caso contrario setea en blanco el input
   $("#escuela").focusout(function() {
     var escuela = $(this).typeahead("getActive");
     if (escuela) {
