@@ -58,7 +58,7 @@ $.get('http://tictucuman.net/portal/agendas/escuelas', function(data){
 ****
 
 **Función Jquery para laravel**
->no es necesario la inicializacion explicita $(function) $document.ready o windows.load, $Jquery ya que @javascript de laravel inicializa todos los script del bloque
+>no es necesario la inicializacion explicita $(function) $document.ready o windows.load, $Jquery ya que @javascript de BLADE en laravel inicializa todos los script del bloque
 
 ```javascript
  //obtiene los datos del json proveniente de la API REST
